@@ -1,0 +1,34 @@
+import React from 'react';
+import { Routes, Route } from 'react-router-dom';
+import LoginPage from '../pages/LoginPage';
+import MulRegisterPage from '../pages/multiRegisPage';
+import IntroPage from '../pages/IntroPage';
+import Home from '../pages/Homepage';
+import ProductDetail from '../pages/productDetail'; // Cập nhật đường dẫn
+import ProductListPage from '../pages/ProductListPage'
+import CartPage from '../pages/Cartpage';
+import PaymentPage from '../pages/Paymentpage';
+import AdminRoutes from './AdminRoutes';
+function AppRoutes() {
+  return (
+    <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/12" element={<IntroPage />} />
+        <Route path="*" element={<LoginPage />} />
+        <Route path="/login" element={<LoginPage />} />
+        <Route path="/mulregister" element={<MulRegisterPage />} />
+        <Route path="/product/:productId" element={<ProductDetail />} />
+        <Route path="/product/:serialID" element={<ProductDetail />} />
+        <Route path="/product" element={<ProductListPage />} />
+        <Route path="/category/:categoryID" element={<ProductListPage />} />
+        <Route path="/product/Cart" element={<CartPage />} />
+        <Route path="/product/Payment" element={<PaymentPage />} />
+
+        <Route path="/admin/*" element={<AdminRoutes />} /> 
+
+    </Routes>
+  
+  );
+}
+
+export default AppRoutes;

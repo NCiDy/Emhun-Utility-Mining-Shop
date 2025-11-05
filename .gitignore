@@ -1,0 +1,5 @@
+#BE
+backend/cmd/server/*.exe
+backend/cmd/worker/*.exe
+backend/go.sum
+node_modules

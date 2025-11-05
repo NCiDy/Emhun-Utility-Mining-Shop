@@ -1,0 +1,33 @@
+.product-status-label {
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    display: inline-block;
+}
+
+.status-in-stock {
+    color: #ffffff;
+    background-color: #27ae60; /* Green */
+}
+
+.status-out-of-stock {
+    color: #ffffff;
+    background-color: #e74c3c; /* Red */
+}
+
+.status-pending {
+    color: #ffffff;
+    background-color: #f39c12; /* Yellow */
+}
+
+.status-discontinued {
+    color: #ffffff;
+    background-color: #7f8c8d; /* Gray */
+}
+
+.status-unknown {
+    color: #ffffff;
+    background-color: #34495e; /* Dark Gray */
+}
