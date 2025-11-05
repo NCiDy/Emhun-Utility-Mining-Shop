@@ -1,18 +1,3 @@
-<h2>Tên nhóm: Workajolibe</h2>
-<h3 style="text-align:center">Electronik</h3>
-
------------------------------------------------
------------------------------------------------
-
-<h3>Thành viên nhóm</h3>
-
-| Số thứ tự | Mã số sinh viên  | Họ và tên  | Chức vụ |
-|:---------:|:------------:|:---------------:|:-----:|
-| 1 | 2001215790  | Nguyễn Huy Hoàng | Trưởng nhóm  |
-| 2 | 2001216199  | Nguyễn Minh Thư | Thành viên  |
-| 3 | 2001216158  | Hà Trọng Thắng | Thành viên  |
-
------------------------------------------------
 ### Sử dụng 
  - Golang
  - Fiber
